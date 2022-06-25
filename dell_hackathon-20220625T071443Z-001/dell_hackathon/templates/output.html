@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.chat-popup {
+
+      position: fixed;
+      bottom: 0;
+      right: 15px;
+      border: 3px solid #f1f1f1;
+      z-index: 9;
+  }
+  </style>
+  </head>
+<style>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 50px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 40%;
+  font-size: 18px;
+}
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: none;
+  
+  padding: 0 4px;
+}
+
+.card button:hover {
+
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<div class="row"> 
+<div class="card">
+  <img align:center src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFU39_JqMMKAsDcOxw3r1hfSKKkDl1pRGLKViqcuZAVdhscM3g" >
+  <h1>DELL Precision 3520</h1>
+ <p>Intel Xeon E3-1505M V6 3GHz</p>
+  <p class="price">Price:1993</p>
+  
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ2AyQiE2S0CZLnP8JohL8OFFkUamD7ImJPBZLTb7PWAjG6EbAE" >
+  <h1>DELL Latitude 5590</h1>
+ <p>Intel Core i7 6820HQ 2.7GHz</p>
+  <p class="price">Price:1975</p>
+  
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/61UkH9A7-NL._SX425_.jpg"  >
+  <h1>DELL XPS 13</h1>
+ <p>Intel Core i7 7Y75 1.3GHz</p>
+  <p class="price">Price:2013.1</p>
+  
+  <p><button>Add to Cart</button></p>
+  </div>
+</div>
+
+
+
+<iframe class="chat-popup" height="400" width="350" src="https://bot.dialogflow.com/be795d81-c256-4a61-b354-eee3bb592d42"></iframe>
+</body>
+
+</html>
